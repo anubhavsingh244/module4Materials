@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script>
+        function createProduct() {
+            this.productId =  prompt("Please enter product id");
+            this.productName =  prompt("Please enter product name");
+            this.productPrice =  prompt("Please enter product Price");
+            this.productDescription =  prompt("Please enter product description");
+            this.printAllProduct = function () {
+                console.log('Product Id is ' + productOne.productId);
+                console.log('Product Name is ' + productOne.productName);
+                console.log('Product Price is ' + productOne.productPrice);
+                console.log('Product Description is ' + productOne.productDescription);
+            }
+        }
+
+        var productOne = new createProduct();
+
+        productOne.printAllProduct();    
+    </script>
+</head>
+
+<body>
+</body>
+</html>
